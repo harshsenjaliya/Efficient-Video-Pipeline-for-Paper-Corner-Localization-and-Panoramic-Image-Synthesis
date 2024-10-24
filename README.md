@@ -77,11 +77,11 @@ This project focuses on two main objectives:
 
 Here are the input images used for panoramic stitching:
 
-1. ![Image 1](https://drive.google.com/uc?id=image_1_id)
-2. ![Image 2](https://drive.google.com/uc?id=image_2_id)
-3. ![Image 3](https://drive.google.com/uc?id=image_3_id)
-4. ![Image 4](https://drive.google.com/uc?id=image_4_id)
+1. ![Image 1](PA120272.JPG)
+2. ![Image 2](PA120273.JPG)
+3. ![Image 3](PA120274.JPG)
+4. ![Image 4](PA120275.JPG)
 
 **Output Panorama:**
-![Panoramic Output](https://drive.google.com/uc?id=panorama_output_id)
+![Panoramic Output](https://github.com/harshsenjaliya/Efficient-Video-Pipeline-for-Paper-Corner-Localization-and-Panoramic-Image-Synthesis/blob/main/Panoramic%20Image.png)
 
