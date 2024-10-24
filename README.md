@@ -16,7 +16,6 @@ This project focuses on two main objectives:
     - [Pipeline Description](#pipeline-description)
     - [Why These Methods?](#why-these-methods)
     - [Running the Code](#running-the-code)
-    - [Key Features](#key-features)
     - [Video Demo](#video-demo)
 - [Part 2: Panoramic Image Stitching](#part-2-panoramic-image-stitching)
     - [Pipeline Description](#pipeline-description-1)
@@ -55,11 +54,19 @@ This project focuses on two main objectives:
    input_vid = '/content/drive/MyDrive/ENPM673/Project-2/proj2_v2.mp4'
    output_vid = '/content/drive/MyDrive/ENPM673/Project-2/proj2_output.mp4'
 
+###  Video Demo
+
+You can watch the video demonstration of the corner edge detection process [here](https://youtube.com/shorts/pzc9_8Yhu7c?feature=share).
+
+[![Watch the video](https://img.youtube.com/vi/pzc9_8Yhu7c/hqdefault.jpg)](https://youtube.com/shorts/pzc9_8Yhu7c?feature=share)
+
+
+
 ---
 
-# Part 2: Panoramic Image Stitching
+## Part 2: Panoramic Image Stitching
 
-## Pipeline Description
+### Pipeline Description
 1. **Feature Extraction:** The **SIFT (Scale-Invariant Feature Transform)** algorithm is utilized to extract keypoints and descriptors from overlapping images. SIFT is robust against changes in scale and rotation, making it ideal for finding correspondences in images taken under varying conditions.
 
 2. **Feature Matching:** The **BFMatcher (Brute Force Matcher)** method is employed to identify feature correspondences between consecutive images. This is followed by applying **RANSAC (Random Sample Consensus)** to filter out outliers and refine the matching process.
@@ -68,12 +75,12 @@ This project focuses on two main objectives:
 
 4. **Image Blending and Warping:** The aligned images are blended seamlessly using the computed homographies. This results in a panoramic image that combines multiple frames into a cohesive whole.
 
-## Why These Methods?
+### Why These Methods?
 - **SIFT** is an effective feature extraction method because it remains invariant to scaling and rotation, allowing for accurate feature matching in diverse images.
 - **RANSAC** enhances the robustness of homography estimation by identifying and removing outliers from the feature matches, leading to better stitching accuracy.
 - **Homographies** facilitate the alignment of images on the same plane, ensuring that the resulting panorama is seamless and visually appealing.
 
-## Images and Results
+### Images and Results
 
 Here are the input images used for panoramic stitching:
 
